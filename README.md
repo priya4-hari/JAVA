@@ -1,3 +1,3 @@
 # JAVA
   Java is developed by SunMicrosystem in 1995.
-  Java is a Multi-Platform, Object-oriented 
+  Java is a Multi-Platform, Object-oriented programming language.
