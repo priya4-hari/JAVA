@@ -1,5 +1,4 @@
-// Java Program to print pattern
-// Number triangle pattern
+
 import java.util.*;
 
 public class GeeksForGeeks {
