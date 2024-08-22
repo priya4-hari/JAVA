@@ -1,5 +1,4 @@
-// Java Program to print pattern
-// Square hollow pattern
+
 import java.util.*;
 
 public class GeeksForGeeks {
