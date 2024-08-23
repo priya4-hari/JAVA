@@ -1,4 +1,4 @@
-/*Create a Collection ìContactListî using HashMap to store name and phone number of contacts added. The program should use appropriate generics (String, Integer) and have the following abilities:
+/*Create a Collection ‚ÄúContactList‚Äù using HashMap to store name and phone number of contacts added. The program should use appropriate generics (String, Integer) and have the following abilities:
 a) Check if a particular key exists or not. 
 b) Check if a particular value exists or not.
 c) Use Iterator to loop through the map.
@@ -70,7 +70,7 @@ class ContactList {
 public class Assignment04 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		ContactList contactsList = new ContactList();
 		
 		contactsList.addContact("Ajay", 98310983);
