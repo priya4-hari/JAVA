@@ -80,7 +80,7 @@ class CountryTable {
 public class Assignment06 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		CountryTable countryTable = new CountryTable();
 
 		countryTable.saveCountryCapital("India", "Delhi");
