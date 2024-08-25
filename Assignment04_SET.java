@@ -30,7 +30,7 @@ class CountrySet {
 public class Assignment04 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		CountrySet country = new CountrySet();
 		country.saveCountryNames("India");
 		country.saveCountryNames("USA");
