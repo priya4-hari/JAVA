@@ -10,7 +10,7 @@ Delhi                               	India
 Tokyo                            		Japan
 5. Develop a method which iterates through the map M1 and creates an ArrayList with all the Country names stored as keys. This method should return the ArrayList.
 NOTE: You can test the methods using a main method.
-*/
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
