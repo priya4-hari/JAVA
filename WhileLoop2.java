@@ -2,18 +2,17 @@ package com.Oop.org;
 
 import java.util.Scanner;
 
-public class DoWhile {
-	
+public class WhileLoop2 {
 	public static void main(String[] args)
 	{
-		System.out.println("Enter number:");
+		System.out.println("Enter number: ");
 		Scanner scan = new Scanner(System.in);
 		int x = scan.nextInt();
-		do
+		while(x==6)
 		{
 			System.out.println(x);
 			x++;
-		}while(x==6);
+		}
 		scan.close();
 	}
 

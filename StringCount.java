@@ -2,18 +2,14 @@ package com.Oop.org;
 
 import java.util.Scanner;
 
-public class DoWhile {
-	
+public class StringCount {
 	public static void main(String[] args)
 	{
-		System.out.println("Enter number:");
+		System.out.println("Enter string:");
 		Scanner scan = new Scanner(System.in);
-		int x = scan.nextInt();
-		do
-		{
-			System.out.println(x);
-			x++;
-		}while(x==6);
+		String str = scan.nextLine();
+		String[] s = str.split(" ");
+		System.out.println(s.length);
 		scan.close();
 	}
 
