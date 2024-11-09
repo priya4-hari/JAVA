@@ -1,10 +1,10 @@
-package com.Oop.org;
+package com.test.org;
 
 public class ConstructorTest {
-	int a=20;
+	int a;
 	public ConstructorTest()
 	{
-		this.a=a;
+		this.a=10;
 	}
 	public ConstructorTest(int a)
 	{
@@ -12,9 +12,10 @@ public class ConstructorTest {
 	}
 	public static void main(String[] args)
 	{
-		ConstructorTest c = new ConstructorTest();
-		System.out.println(c.a);
-		ConstructorTest c1 = new ConstructorTest(55);
+		ConstructorTest c1 = new ConstructorTest();
 		System.out.println(c1.a);
+		ConstructorTest c2 = new ConstructorTest(50);
+		System.out.println(c2.a);
 	}
+
 }

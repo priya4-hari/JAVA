@@ -2,20 +2,17 @@ package com.test.org;
 
 import java.util.Scanner;
 
-public class ConditionalStatements1 {
+public class DoWhileTest {
 	public static void main(String[] args)
 	{
 		System.out.println("Enter number:");
 		Scanner scan = new Scanner(System.in);
 		int x = scan.nextInt();
-		if(x==5)
+		do
 		{
-			System.out.println("Entered number is 5");
-		}
-		else
-		{
-			System.out.println("Entered number is not 5");
-		}
+			System.out.println(x);
+			x++;
+		}while(x==6);
 		scan.close();
 	}
 
